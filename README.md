@@ -42,3 +42,4 @@ The following functions are currently implemented:
 * `map(array, callback)`: A function which takes an array and callback function to create a new array with elements decided by the callback provided.
 * `takeUntil(array, callback)`: A function that take in an array and callback will return a "slice of the array with elements taken from the beginning." It should keep going until the callback returns a truthy value.
 * `findKey(planetsObj, callback)`: A function that takes in an object and a callback. It should scan the object and return the first key for which the callback returns a truthy value. If no key is found, then it should return undefined.
+* `flatten(nestedArr)`: A function that takes in an array containing elements including nested arrays of elements, and return a "flattened" version of the array.
